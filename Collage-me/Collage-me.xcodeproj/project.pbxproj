@@ -24,9 +24,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5476E0B52DDDCA38001B452A /* Collage-me.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Collage-me.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5476E0C82DDDCA3A001B452A /* Collage-meTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Collage-meTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5476E0D22DDDCA3A001B452A /* Collage-meUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Collage-meUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5476E0B52DDDCA38001B452A /* Animal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Animal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5476E0C82DDDCA3A001B452A /* AnimalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5476E0D22DDDCA3A001B452A /* AnimalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5476E0E52DDDF042001B452A /* Animal-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Animal-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +76,7 @@
 		5476E0AC2DDDCA38001B452A = {
 			isa = PBXGroup;
 			children = (
+				5476E0E52DDDF042001B452A /* Animal-Info.plist */,
 				5476E0B72DDDCA38001B452A /* Collage-me */,
 				5476E0CB2DDDCA3A001B452A /* Collage-meTests */,
 				5476E0D52DDDCA3A001B452A /* Collage-meUITests */,
@@ -85,9 +87,9 @@
 		5476E0B62DDDCA38001B452A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5476E0B52DDDCA38001B452A /* Collage-me.app */,
-				5476E0C82DDDCA3A001B452A /* Collage-meTests.xctest */,
-				5476E0D22DDDCA3A001B452A /* Collage-meUITests.xctest */,
+				5476E0B52DDDCA38001B452A /* Animal.app */,
+				5476E0C82DDDCA3A001B452A /* AnimalTests.xctest */,
+				5476E0D22DDDCA3A001B452A /* AnimalUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,9 +97,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5476E0B42DDDCA38001B452A /* Collage-me */ = {
+		5476E0B42DDDCA38001B452A /* Animal */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5476E0DC2DDDCA3A001B452A /* Build configuration list for PBXNativeTarget "Collage-me" */;
+			buildConfigurationList = 5476E0DC2DDDCA3A001B452A /* Build configuration list for PBXNativeTarget "Animal" */;
 			buildPhases = (
 				5476E0B12DDDCA38001B452A /* Sources */,
 				5476E0B22DDDCA38001B452A /* Frameworks */,
@@ -110,16 +112,16 @@
 			fileSystemSynchronizedGroups = (
 				5476E0B72DDDCA38001B452A /* Collage-me */,
 			);
-			name = "Collage-me";
+			name = Animal;
 			packageProductDependencies = (
 			);
 			productName = "Collage-me";
-			productReference = 5476E0B52DDDCA38001B452A /* Collage-me.app */;
+			productReference = 5476E0B52DDDCA38001B452A /* Animal.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5476E0C72DDDCA3A001B452A /* Collage-meTests */ = {
+		5476E0C72DDDCA3A001B452A /* AnimalTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5476E0DF2DDDCA3A001B452A /* Build configuration list for PBXNativeTarget "Collage-meTests" */;
+			buildConfigurationList = 5476E0DF2DDDCA3A001B452A /* Build configuration list for PBXNativeTarget "AnimalTests" */;
 			buildPhases = (
 				5476E0C42DDDCA3A001B452A /* Sources */,
 				5476E0C52DDDCA3A001B452A /* Frameworks */,
@@ -133,16 +135,16 @@
 			fileSystemSynchronizedGroups = (
 				5476E0CB2DDDCA3A001B452A /* Collage-meTests */,
 			);
-			name = "Collage-meTests";
+			name = AnimalTests;
 			packageProductDependencies = (
 			);
 			productName = "Collage-meTests";
-			productReference = 5476E0C82DDDCA3A001B452A /* Collage-meTests.xctest */;
+			productReference = 5476E0C82DDDCA3A001B452A /* AnimalTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		5476E0D12DDDCA3A001B452A /* Collage-meUITests */ = {
+		5476E0D12DDDCA3A001B452A /* AnimalUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5476E0E22DDDCA3A001B452A /* Build configuration list for PBXNativeTarget "Collage-meUITests" */;
+			buildConfigurationList = 5476E0E22DDDCA3A001B452A /* Build configuration list for PBXNativeTarget "AnimalUITests" */;
 			buildPhases = (
 				5476E0CE2DDDCA3A001B452A /* Sources */,
 				5476E0CF2DDDCA3A001B452A /* Frameworks */,
@@ -156,11 +158,11 @@
 			fileSystemSynchronizedGroups = (
 				5476E0D52DDDCA3A001B452A /* Collage-meUITests */,
 			);
-			name = "Collage-meUITests";
+			name = AnimalUITests;
 			packageProductDependencies = (
 			);
 			productName = "Collage-meUITests";
-			productReference = 5476E0D22DDDCA3A001B452A /* Collage-meUITests.xctest */;
+			productReference = 5476E0D22DDDCA3A001B452A /* AnimalUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -200,9 +202,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5476E0B42DDDCA38001B452A /* Collage-me */,
-				5476E0C72DDDCA3A001B452A /* Collage-meTests */,
-				5476E0D12DDDCA3A001B452A /* Collage-meUITests */,
+				5476E0B42DDDCA38001B452A /* Animal */,
+				5476E0C72DDDCA3A001B452A /* AnimalTests */,
+				5476E0D12DDDCA3A001B452A /* AnimalUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,12 +260,12 @@
 /* Begin PBXTargetDependency section */
 		5476E0CA2DDDCA3A001B452A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5476E0B42DDDCA38001B452A /* Collage-me */;
+			target = 5476E0B42DDDCA38001B452A /* Animal */;
 			targetProxy = 5476E0C92DDDCA3A001B452A /* PBXContainerItemProxy */;
 		};
 		5476E0D42DDDCA3A001B452A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5476E0B42DDDCA38001B452A /* Collage-me */;
+			target = 5476E0B42DDDCA38001B452A /* Animal */;
 			targetProxy = 5476E0D32DDDCA3A001B452A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -401,6 +403,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Animal-Info.plist";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -410,8 +413,11 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.swiftData.mdo.Collage-me";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -429,6 +435,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Animal-Info.plist";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -438,8 +445,11 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.swiftData.mdo.Collage-me";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -457,7 +467,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Collage-me.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Collage-me";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Animal.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Animal";
 			};
 			name = Debug;
 		};
@@ -475,7 +485,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Collage-me.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Collage-me";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Animal.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Animal";
 			};
 			name = Release;
 		};
@@ -523,7 +533,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5476E0DC2DDDCA3A001B452A /* Build configuration list for PBXNativeTarget "Collage-me" */ = {
+		5476E0DC2DDDCA3A001B452A /* Build configuration list for PBXNativeTarget "Animal" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5476E0DD2DDDCA3A001B452A /* Debug */,
@@ -532,7 +542,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5476E0DF2DDDCA3A001B452A /* Build configuration list for PBXNativeTarget "Collage-meTests" */ = {
+		5476E0DF2DDDCA3A001B452A /* Build configuration list for PBXNativeTarget "AnimalTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5476E0E02DDDCA3A001B452A /* Debug */,
@@ -541,7 +551,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5476E0E22DDDCA3A001B452A /* Build configuration list for PBXNativeTarget "Collage-meUITests" */ = {
+		5476E0E22DDDCA3A001B452A /* Build configuration list for PBXNativeTarget "AnimalUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5476E0E32DDDCA3A001B452A /* Debug */,
